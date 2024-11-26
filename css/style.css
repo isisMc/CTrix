@@ -1,0 +1,86 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4faff;
+  }
+
+  .navbar {
+    background-color:  #9AAFC2; 
+  }
+  .navbar .navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .navbar .navbar-nav .nav-link {
+    font-size: 1.2rem;
+    color: #66CCFF; 
+  }
+  .navbar .navbar-nav .nav-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+
+  .btn-primary {
+    background-color: #3399FF; 
+    border-color: #3399FF;
+    font-size: 1.1rem;
+  }
+  .btn-primary:hover {
+    background-color: #66CCFF;
+    border-color: #66CCFF;
+  }
+  .text-light:hover {
+    background-color: #ffffff;
+    color: #000000 !important;
+  }
+  .hidden{
+    display: none !important;
+  }
+  .rounded-image {
+    border-radius: 50%;
+    object-fit: cover; /* Para asegurar que la imagen se recorte bien dentro del círculo */
+}
+
+
+  .jumbotron {
+    background-color: #2a6eb2; 
+    color: #ffffff;
+    border-radius: 0.5rem;
+    padding: 3rem 2rem;
+  }
+  .jumbotron h1 {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  .jumbotron p {
+    font-size: 1.5rem;
+  }
+  .jumbotron hr {
+    border-top: 2px solid #66CCFF;
+    width: 50%;
+  }
+  .card-header {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    background-color:#678fb6 ;
+}
+
+.card-body ul {
+    padding-left: 20px;
+    font-size: 1.0rem;
+}
+
+.card-body ul li {
+    margin-bottom: 10px;
+}
+#educacion {
+  margin-top: 40px;
+}
+.card-header {
+  font-size: 1.25rem;
+}
+.card-body ul, .card-body ol {
+  padding-left: 20px;
+}
+
+ 
